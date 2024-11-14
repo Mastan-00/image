@@ -1,0 +1,5 @@
+import Image 
+ImageFilter = ""
+img2 = Image.open('eample.png')
+filtered_img2 = img2.filter(ImageFilter.SMOOTH)
+filtered_img2.save('eample.png')
